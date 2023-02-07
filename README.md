@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```console
-  cd CustomWeatherClientTool
+  cd Custom-Weather-Client-Tool
 ```
 
 Install dependencies
