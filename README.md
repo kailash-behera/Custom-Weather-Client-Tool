@@ -28,7 +28,25 @@ Run project
   dotnet run
 ```
 
+Nuget Package Build
+
+```console
+  dotnet pack
+```
+
+Install the weather cli tool to the system globaly
+
+```console
+  dotnet tool install --global --add-source ./nupkg CustomWeatherClientTool
+```
+
+Now the CLI Tool installed globaly. So use it like below
+
+```console
+  > weather
+```
+
 ## Tech Stack
 
 - .NET Core 7
-- C# 10
+- Console Application
